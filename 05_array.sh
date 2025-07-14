@@ -16,3 +16,6 @@ echo "Getting specific values from 2nd to 4th index: ${myArray[*]:2:3}"
 #Update array with new values
 myArray+=( new 30 40)
 echo "Values from updated array are ${myArray[*]}"
+
+#length of array
+echo "Length of arrary is ${#myArray[*]}"
