@@ -10,3 +10,8 @@ echo "Employee Id of $name is $ecode who is working as a $role."
 
 name="Paul"
 echo "Find the employee id of $name!"
+
+#var to store the output of a command
+HOSTNAME=$(hostname)
+echo "Name of the machine is $HOSTNAME."
+
