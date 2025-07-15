@@ -3,6 +3,6 @@
 
 #!/bin/bash
 
-read -p "Enter a number to check whether it is even or odd: " n
+read -p "Enter a number to check whether it is even or odd: " number
 
-[[ $n%2 -eq 0 ]] && echo "Even" || echo "Odd"
+[[ $number%2 -eq 0 ]] && echo "Even" || echo "Odd"
