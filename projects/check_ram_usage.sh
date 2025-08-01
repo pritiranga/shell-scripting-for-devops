@@ -1,4 +1,4 @@
-#script to check RAM usage
+#script to check RAM usage and alert if more than a given threshold
 
 #!/bin/bash
 
